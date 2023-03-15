@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: lightblue;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .color {
+    color: #333;
+    font-weight: bold;
+  }
+
+  span{
+    font-size: 60px;
+    padding-bottom: 25px;
+  }
+  
+  .btn{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .btn-hero:hover {
+    background-color: #fff;
+    color: #333;
+  }
